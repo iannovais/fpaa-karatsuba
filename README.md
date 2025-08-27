@@ -152,7 +152,7 @@ Um grafo de controle representa os caminhos possíveis da execução:
 - M = 5 
 
 **IV. Desenho do grafo de fluxo**
-
+<img width="1920" height="396" alt="Diagrama em branco (1)" src="https://github.com/user-attachments/assets/21bcd662-1388-4571-a863-241eee93fa22" />
 
 ### Complexidade de assintótica:
 
