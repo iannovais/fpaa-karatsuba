@@ -14,7 +14,7 @@ Enquanto a multiplicação tradicional de dois números com **n** possui a compl
 ## Explicação do Código
 
 ```python
-def karatsuba(num1: int, num2: int, n: int) -> int:
+def karatsuba(num1: int, num2: int, n: int = None) -> int:
     # Caso o n não está definido, é coletado o número de digitos do maior entre num1 e num2
     if n is None:
         n = max(len(str(num1)), len(str(num2)))
@@ -48,12 +48,15 @@ def quebrar_num(num: int, m: int) -> tuple[int, int]:
 ### `main` de execução:
 
 ```python
-if __name__ == "__main__":
-    a = 1111111111111111
-    b = 2222222222222222
+def main():
+    a = 11111111111111111
+    b = 22222222222222222
 
     print(karatsuba(a, b, n)) # resultado pelo Karatsuba
     print(a * b) # comparação com multiplicação nativa
+    
+if __name__ == "__main__":
+    main()
 ```
 
 ---
